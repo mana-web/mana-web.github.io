@@ -1,0 +1,132 @@
+<!dcotype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>実家にいる猫</title>
+    <meta name="description" content="猫の好きなもの、日々の生活をご紹介">
+    <link rel="stylesheet" href="mypage.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700 rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <br>
+     <h1>#lovely lovely our Cats</h1>
+    </header>
+
+    <article>
+        <h2>初めに</h2>
+        <p>小野家にいる猫について紹介するサイトです。頑張ってるなって思ったらお小遣いください。</p>
+        <p>あと増やしてほしい情報もあったら追加する。</p>
+    </article>
+
+    <main>
+     <h2 class="base">3匹の紹介</h2>
+       <ol>
+           <div class="kind">
+             <li>にゃんた</li>
+             <img src="IMG_8461.jpg" alt="にゃんた">
+           </div>
+
+            <div class="kind">
+             <li>きなこ</li>
+             <img src="IMG_9393.jpg" alt="きなこ">
+            </div>
+
+            <div class="kind">
+             <li>こはる</li>
+              <img src="IMG_8355.JPG " alt="こはる">
+             </div>
+       </ol>
+    </main>
+
+    <section>
+        <h2>それぞれの特徴</h2>
+        <table>
+            <tr>
+                <th>名前</th>
+                <th>にゃんた</th>
+                <th>きなこ</th>
+                <th>こはる</th>
+            </tr>
+            <tr>
+                <th>色(上)</th>
+                <td rowspan="2">灰</td>
+                <td>茶</td>
+                <td>灰</td>
+            </tr>
+            <tr>
+                <th>色(下)</th>
+                <td>白</td>
+                <td>白</td>
+            </tr>
+            <tr>
+                <th>性格</th>
+                <td>優しい</td>
+                <td>おっとり</td>
+                <td>人見知り</td>
+            </tr>
+            <tr>
+                <th>大きさ</th>
+                <td>大きい</td>
+                <td colspan="2">小さめ</td>
+            </tr>
+        </table>
+    </section>
+
+    <aside>
+        <h2>あとがき</h2>
+        <p>書くことなくて困ってる。</p>
+        <p>そしてレイアウト難しい。お問い合わせボタンは置いてるだけで押してもどこにも届きません</p>
+    </aside>
+
+    <footer>
+        <h2>[お問い合わせ]</h2>
+        <p>お名前
+         <input type="text" placeholder="小野　○○"></p>
+        <p>続柄
+         <input type="radio" name="family" value="父">父
+         <input type="radio" name="family" value="母">母
+         <input type="radio" name="family" value="姉">姉
+        </p>
+        血液型
+        <select name="bloodtype">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="AB">AB</option>
+            <option value="O">O</option>
+            <option value="O">O</option>
+            <option value="O">O</option>
+        </select>
+        (あたりは一つ)
+        <p>好きな猫(複数選択可)</p>
+        　<input type="checkbox" name="catlove" value="にゃんた" id="likecat1"><label for="likecat1">にゃんた</label>
+        　<input type="checkbox" name="catlove" value="きなこ" id="likecat2"><label for="likecat2">きなこ</label>
+        　<input type="checkbox" name="catlove" value="こはる" id="likecat3"><label for="likecat3">こはる</label>
+        <p>メールアドレス
+         <input type="email"></p>
+        <p>電話番号
+         <input type="tel"></p>
+        <p>誕生日
+         <input type="text"></p>
+        <p>今にゃんたがしていること</p>
+         <textarea name="message" placeholder="きなこでもこはるでもいいよ"></textarea>
+        <p>今度の帰省でお菓子を買ってくれる
+            <input type="radio" name="choco" value="はい">はい
+            <input type="radio" name="choco" value="いいえ">いいえ　(ありがとう)
+        </p>
+        <input type="submit" value="送信する">
+
+    </footer>
+
+    <nav>
+        <p class="url">ねこについては<a href="https://cat.benesse.ne.jp/"><strong>こちら</strong></a>。</p>
+        <a href="https://cat.benesse.ne.jp/" target="_blank"><img src="IMG_0470.jpg" alt="ねこのちもち　ホームページ"></a>
+     </nav>
+
+
+
+</body>
+
+</html>
+ 
