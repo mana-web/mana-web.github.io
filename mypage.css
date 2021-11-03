@@ -11,62 +11,107 @@ h1{
     text-align: center;
     font-weight: 100;
     font-family: 'Amatic SC', cursive;
+    border-style: dotted;
+    border-color: #e5b7be;
+    border-width:5px ;
 }
 
 h2{
     padding-left: 15px;
+    margin-top: 75px;
     font-size: 1.5rem;
     font-family: serif;
     font-weight: bold;
     color: #473441;
+    text-align: center;
 }
 
 p{
     line-height: 1.0;
     margin: 25px;
+    text-align: center;
 }
 
 header{
     padding: 40px;
+    margin:20px 50px;
     background-color: #ffffff;
     background-image: url(Edrv2I7U4AA0mxL.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-article{
-    margin-bottom: 60px;
+main{
+    text-align: center;
 }
 
-.kind{
-    padding:0px 0px 30px 50px;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.intro{
+    margin: 5px;
+}
 
 img{
     height: 100;
 }
 
 table{
-    margin-bottom: 75px;
-    margin-left: 50px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
     background-color: rgb(241, 248, 248);
+    text-align: center;
+}
+
+ol{
+    list-style-position: inside;
 }
 
 aside{
     margin-bottom:70px;
 }
 
-aside p{
-    margin-left: 25px;
-}
-
 footer{
      padding:1px 0px 25px 30px;
-     margin-bottom: 50px;
+
+     margin:0px 25px 50px 25px;
      background-color: #ffffff;
 }
 
-nav{
-    text-align: right;
+h2.QA{
+    color:black;
 }
+
+.cen{
+    text-align: center;
+}
+
+input,textarea{
+    border: 0.5px solid;
+}
+
+input#bo{
+    border: 0.5px inset;
+    padding: 2px;
+}
+
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+img.item{
+    height: 150;
+    margin: 5px;
+}
+
+nav{
+    text-align: center;
+}
+
